@@ -5,7 +5,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 from datetime import datetime
 
-TOKEN = "DEIN_BOT_TOKEN_HIER_ERSETZEN"  # ← HIER DEINEN TOKEN VON BOTFATHER REIN!
+TOKEN = 8423771930:AAESVtlmyqVC1yiRotiTvzLTG57BId8SRGY
 
 exchanges = {
     'binance': ccxt.binance(),
